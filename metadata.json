@@ -1,0 +1,6 @@
+{
+  "name": "Quarterly Sales & Region Revenue Analyzer",
+  "description": "Upload sales CSVs, visualize regional revenue by quarter with interactive charts and pivot tables, and generate AI insights on Q2 to Q3 revenue shifts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
