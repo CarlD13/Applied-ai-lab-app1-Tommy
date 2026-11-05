@@ -118,7 +118,7 @@ export default function App() {
   const topRegion = shiftResult.topRegionByDollar;
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-indigo-500/30 selection:text-indigo-200">
+    <div className="min-h-screen bg-[#1a0407] text-slate-100 flex flex-col font-sans selection:bg-red-500/30 selection:text-red-200">
       {/* Toast Notification */}
       {notification && (
         <div className="fixed bottom-5 right-5 z-50 animate-in slide-in-from-bottom-5 fade-in duration-300">
@@ -301,7 +301,7 @@ export default function App() {
       />
 
       {/* Footer */}
-      <footer className="border-t border-slate-800/80 bg-slate-950 py-6 text-center text-xs text-slate-500">
+      <footer className="border-t border-red-950/80 bg-[#120204] py-6 text-center text-xs text-red-200/60">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>Quarterly Sales &amp; Region Revenue Analyzer</span>
           <span className="font-mono">Columns: quarter • region • channel • product • units • discount_pct • revenue</span>
